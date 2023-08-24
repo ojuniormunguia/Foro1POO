@@ -39,7 +39,7 @@ public class Main {
                 case 1 -> { // Agregar nuevo estudiante
                     System.out.println("Escriba carnet de estudiante:");
                     String Carnet = scanner.next();
-                    scanner.nextLine(); // Consume the newline character
+                    scanner.nextLine();
                     if (MapaDeEstudiantes.containsKey(Carnet)) {
                         System.out.println("Ya hay un estudiante con este carnet");
                     } else {
